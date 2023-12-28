@@ -1,7 +1,7 @@
 import { allPosts } from "contentlayer/generated"
 import { compareDesc } from "date-fns"
 
-import { BlogPosts } from "@/components/blog-posts"
+import { BlogPosts } from "@/widgets/blog-posts/ui/blog-posts"
 
 export const metadata = {
   title: "Blog",

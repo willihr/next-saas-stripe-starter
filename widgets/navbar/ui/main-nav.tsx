@@ -8,7 +8,7 @@ import { MainNavItem } from "types"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/shared/lib/utils"
 import { Icons } from "@/shared/ui/components/icons"
-import { MobileNav } from "@/components/layout/mobile-nav"
+import { MobileNav } from "./mobile-nav"
 
 interface MainNavProps {
   items?: MainNavItem[]

@@ -2,7 +2,7 @@ import Link from "next/link"
 
 import { DocsSearch } from "@/components/docs/search"
 import { DocsSidebarNav } from "@/components/docs/sidebar-nav"
-import { NavBar } from "@/components/layout/navbar"
+import { NavBar } from "@/widgets/navbar/ui/navbar"
 import { SiteFooter } from "@/components/layout/site-footer"
 import { Icons } from "@/shared/ui/components/icons"
 import { docsConfig } from "@/config/docs"

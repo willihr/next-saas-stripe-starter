@@ -1,4 +1,4 @@
-import { NavBar } from "@/components/layout/navbar"
+import { NavBar } from "@/widgets/navbar/ui/navbar"
 import { SiteFooter } from "@/components/layout/site-footer"
 import { marketingConfig } from "@/config/marketing"
 import { getCurrentUser } from "@/shared/lib/session"

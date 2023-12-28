@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation"
 
-import { DashboardNav } from "@/components/layout/nav"
+import { DashboardNav } from "@/widgets/dashboard-nav/ui/nav"
 import { NavBar } from "@/widgets/navbar/ui/navbar"
 import { SiteFooter } from "@/components/layout/site-footer"
 import { dashboardConfig } from "@/config/dashboard"

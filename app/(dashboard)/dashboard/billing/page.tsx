@@ -5,7 +5,7 @@ import { getCurrentUser } from "@/shared/lib/session"
 import { getUserSubscriptionPlan } from "@/shared/lib/subscription"
 import { Alert, AlertDescription, AlertTitle } from "@/shared/ui/alert"
 import { BillingInfo } from "@/widgets/billing-info/ui/billing-info"
-import { DashboardHeader } from "@/components/dashboard/header"
+import { DashboardHeader } from "@/widgets/dashboard-header/ui/header"
 import { Icons } from "@/shared/ui/components/icons"
 import { DashboardShell } from "@/widgets/dashboard-shell/ui/shell"
 

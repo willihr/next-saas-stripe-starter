@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation"
 
 import { SidebarNavItem } from "types"
 import { cn } from "@/shared/lib/utils"
-import { Icons } from "@/components/shared/icons"
+import { Icons } from "@/shared/ui/components/icons"
 
 interface DashboardNavProps {
   items: SidebarNavItem[]

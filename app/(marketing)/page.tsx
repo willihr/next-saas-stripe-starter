@@ -3,7 +3,7 @@ import Link from "next/link"
 import { buttonVariants } from "@/shared/ui/button"
 import { siteConfig } from "@/config/site"
 import { cn, nFormatter } from "@/shared/lib/utils"
-import { Icons } from "@/components/shared/icons"
+import { Icons } from "@/shared/ui/components/icons"
 import { env } from "@/env.mjs"
 
 export default async function IndexPage() {

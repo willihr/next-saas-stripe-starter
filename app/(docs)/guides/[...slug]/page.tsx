@@ -3,10 +3,10 @@ import { notFound } from "next/navigation"
 import { allGuides } from "contentlayer/generated"
 
 import { getTableOfContents } from "@/shared/lib/toc"
-import { Icons } from "@/components/shared/icons"
+import { Icons } from "@/shared/ui/components/icons"
 import { Mdx } from "@/components/content/mdx-components"
 import { DocsPageHeader } from "@/components/docs/page-header"
-import { DashboardTableOfContents } from "@/components/shared/toc"
+import { DashboardTableOfContents } from "@/shared/ui/components/toc"
 
 import "@/styles/mdx.css"
 import { Metadata } from "next"

@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 
-import { Icons } from "@/components/shared/icons";
-import { Modal } from "@/components/shared/modal";
+import { Icons } from "@/shared/ui/components/icons";
+import { Modal } from "@/shared/ui/components/modal";
 import { Button } from "@/shared/ui/button";
 import { siteConfig } from "@/config/site";
 import { useSigninModal } from "@/shared/lib/hooks/use-signin-modal";

@@ -6,7 +6,7 @@ import { getUserSubscriptionPlan } from "@/shared/lib/subscription"
 import { Alert, AlertDescription, AlertTitle } from "@/shared/ui/alert"
 import { BillingInfo } from "@/components/billing-info"
 import { DashboardHeader } from "@/components/dashboard/header"
-import { Icons } from "@/components/shared/icons"
+import { Icons } from "@/shared/ui/components/icons"
 import { DashboardShell } from "@/components/dashboard/shell"
 
 export const metadata = {

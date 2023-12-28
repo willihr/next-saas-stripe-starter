@@ -1,7 +1,7 @@
 "use client"
 
 import { generateUserStripe } from '@/actions/generate-user-stripe'
-import { Icons } from "@/components/shared/icons"
+import { Icons } from "@/shared/ui/components/icons"
 import { Button } from "@/shared/ui/button"
 import { SubscriptionPlan, UserSubscriptionPlan } from "@/types"
 import { useTransition } from 'react'

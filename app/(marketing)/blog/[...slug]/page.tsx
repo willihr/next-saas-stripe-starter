@@ -11,7 +11,7 @@ import Link from "next/link"
 import { env } from "@/env.mjs"
 import { absoluteUrl, cn, formatDate } from "@/shared/lib/utils"
 import { buttonVariants } from "@/shared/ui/button"
-import { Icons } from "@/components/shared/icons"
+import { Icons } from "@/shared/ui/components/icons"
 
 interface PostPageProps {
   params: {

@@ -9,7 +9,7 @@ import {
   Tailwind,
   Text
 } from '@react-email/components';
-import { Icons } from '../components/shared/icons';
+import { Icons } from '../shared/ui/components/icons';
 
 type MagicLinkEmailProps = {
   actionUrl: string

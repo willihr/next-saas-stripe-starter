@@ -19,7 +19,7 @@ import {
 import { Input } from "@/shared/ui/input"
 import { Label } from "@/shared/ui/label"
 import { toast } from "@/shared/ui/use-toast"
-import { Icons } from "@/components/shared/icons"
+import { Icons } from "@/shared/ui/components/icons"
 
 import { updateUserName, type FormData } from "@/actions/update-user-name"
 

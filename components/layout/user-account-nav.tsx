@@ -3,7 +3,7 @@
 import { signOut } from "next-auth/react"
 import Link from "next/link"
 
-import { UserAvatar } from "@/components/shared/user-avatar"
+import { UserAvatar } from "@/shared/ui/components/user-avatar"
 import {
   DropdownMenu,
   DropdownMenuContent,

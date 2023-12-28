@@ -1,7 +1,7 @@
 import { User } from "@prisma/client"
 import type { Icon } from "lucide-react"
 
-import { Icons } from "@/components/shared/icons"
+import { Icons } from "@/shared/ui/components/icons"
 
 export type NavItem = {
   title: string

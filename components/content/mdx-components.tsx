@@ -3,7 +3,7 @@ import NextImage, { ImageProps } from "next/image"
 import { useMDXComponent } from "next-contentlayer/hooks"
 
 import { cn } from "@/shared/lib/utils"
-import { Callout } from "@/components/shared/callout"
+import { Callout } from "@/shared/ui/components/callout"
 import { MdxCard } from "@/components/content/mdx-card"
 
 const components = {

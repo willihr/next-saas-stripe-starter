@@ -3,7 +3,7 @@ import Link from "next/link"
 
 import { cn } from "@/shared/lib/utils"
 import { buttonVariants } from "@/shared/ui/button"
-import { Icons } from "@/components/shared/icons"
+import { Icons } from "@/shared/ui/components/icons"
 import { UserAuthForm } from "@/components/forms/user-auth-form"
 
 export const metadata: Metadata = {

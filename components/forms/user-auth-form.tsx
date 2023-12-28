@@ -13,7 +13,7 @@ import { buttonVariants } from "@/shared/ui/button"
 import { Input } from "@/shared/ui/input"
 import { Label } from "@/shared/ui/label"
 import { toast } from "@/shared/ui/use-toast"
-import { Icons } from "@/components/shared/icons"
+import { Icons } from "@/shared/ui/components/icons"
 
 interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> {
   type?: string

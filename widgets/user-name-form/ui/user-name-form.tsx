@@ -21,7 +21,7 @@ import { Label } from "@/shared/ui/label"
 import { toast } from "@/shared/ui/use-toast"
 import { Icons } from "@/shared/ui/components/icons"
 
-import { updateUserName, type FormData } from "@/actions/update-user-name"
+import { updateUserName, type FormData } from "../api/update-user-name"
 
 interface UserNameFormProps {
   user: Pick<User, "id" | "name">

@@ -4,7 +4,7 @@ import { authOptions } from "@/shared/lib/auth"
 import { getCurrentUser } from "@/shared/lib/session"
 import { DashboardHeader } from "@/components/dashboard/header"
 import { DashboardShell } from "@/components/dashboard/shell"
-import { UserNameForm } from "@/components/forms/user-name-form"
+import { UserNameForm } from "@/widgets/user-name-form/ui/user-name-form"
 
 export const metadata = {
   title: "Settings",

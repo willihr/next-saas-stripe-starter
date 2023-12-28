@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Suspense, useState } from 'react';
 
-import { BillingFormButton } from "@/components/forms/billing-form-button";
+import { BillingFormButton } from "./billing-form-button";
 import { Icons } from "@/shared/ui/components/icons";
 import { Button, buttonVariants } from "@/shared/ui/button";
 import { Switch } from '@/shared/ui/switch';

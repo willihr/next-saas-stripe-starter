@@ -1,5 +1,5 @@
 
-import { PricingCards } from '@/components/pricing-cards';
+import { PricingCards } from '@/widgets/pricing-cards/ui/pricing-cards';
 import { PricingFaq } from '@/widgets/pricing-faq/ui/pricing-faq';
 import { Skeleton } from '@/shared/ui/skeleton';
 import { getCurrentUser } from '@/shared/lib/session';

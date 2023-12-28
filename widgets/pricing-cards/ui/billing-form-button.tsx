@@ -1,6 +1,6 @@
 "use client"
 
-import { generateUserStripe } from '@/actions/generate-user-stripe'
+import { generateUserStripe } from '../api/generate-user-stripe'
 import { Icons } from "@/shared/ui/components/icons"
 import { Button } from "@/shared/ui/button"
 import { SubscriptionPlan, UserSubscriptionPlan } from "@/types"

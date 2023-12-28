@@ -1,5 +1,5 @@
 import { NavBar } from "@/widgets/navbar/ui/navbar"
-import { SiteFooter } from "@/components/layout/site-footer"
+import { SiteFooter } from "@/widgets/site-footer/ui/site-footer"
 import { marketingConfig } from "@/config/marketing"
 import { getCurrentUser } from "@/shared/lib/session"
 import { Suspense } from "react"

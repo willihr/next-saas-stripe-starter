@@ -2,7 +2,7 @@ import { notFound } from "next/navigation"
 
 import { DashboardNav } from "@/widgets/dashboard-nav/ui/nav"
 import { NavBar } from "@/widgets/navbar/ui/navbar"
-import { SiteFooter } from "@/components/layout/site-footer"
+import { SiteFooter } from "@/widgets/site-footer/ui/site-footer"
 import { dashboardConfig } from "@/config/dashboard"
 import { getCurrentUser } from "@/shared/lib/session"
 

@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/providers";
 import { TailwindIndicator } from "@/components/tailwind-indicator";
 import { Toaster } from "@/shared/ui/toaster";
 import { siteConfig } from "@/config/site";
-import { cn } from "@/lib/utils";
+import { cn } from "@/shared/lib/utils";
 
 interface RootLayoutProps {
   children: React.ReactNode

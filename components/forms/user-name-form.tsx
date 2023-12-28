@@ -5,8 +5,8 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { User } from "@prisma/client"
 import { useForm } from "react-hook-form"
 
-import { cn } from "@/lib/utils"
-import { userNameSchema } from "@/lib/validations/user"
+import { cn } from "@/shared/lib/utils"
+import { userNameSchema } from "@/shared/lib/validations/user"
 import { buttonVariants } from "@/shared/ui/button"
 import {
   Card,

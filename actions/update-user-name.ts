@@ -1,8 +1,8 @@
 "use server";
 
-import { authOptions } from "@/lib/auth";
-import { prisma } from "@/lib/db";
-import { userNameSchema } from "@/lib/validations/user";
+import { authOptions } from "@/shared/lib/auth";
+import { prisma } from "@/shared/lib/db";
+import { userNameSchema } from "@/shared/lib/validations/user";
 import { getServerSession } from "next-auth";
 import { revalidatePath } from "next/cache";
 

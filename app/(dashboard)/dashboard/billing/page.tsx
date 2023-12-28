@@ -1,8 +1,8 @@
 import { redirect } from "next/navigation"
 
-import { authOptions } from "@/lib/auth"
-import { getCurrentUser } from "@/lib/session"
-import { getUserSubscriptionPlan } from "@/lib/subscription"
+import { authOptions } from "@/shared/lib/auth"
+import { getCurrentUser } from "@/shared/lib/session"
+import { getUserSubscriptionPlan } from "@/shared/lib/subscription"
 import { Alert, AlertDescription, AlertTitle } from "@/shared/ui/alert"
 import { BillingInfo } from "@/components/billing-info"
 import { DashboardHeader } from "@/components/dashboard/header"

@@ -2,7 +2,7 @@ import Link from "next/link"
 
 import { buttonVariants } from "@/shared/ui/button"
 import { siteConfig } from "@/config/site"
-import { cn, nFormatter } from "@/lib/utils"
+import { cn, nFormatter } from "@/shared/lib/utils"
 import { Icons } from "@/components/shared/icons"
 import { env } from "@/env.mjs"
 

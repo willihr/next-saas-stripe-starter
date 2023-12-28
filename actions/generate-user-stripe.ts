@@ -1,9 +1,9 @@
 "use server";
 
-import { authOptions } from "@/lib/auth";
-import { stripe } from "@/lib/stripe";
-import { getUserSubscriptionPlan } from "@/lib/subscription";
-import { absoluteUrl } from "@/lib/utils";
+import { authOptions } from "@/shared/lib/auth";
+import { stripe } from "@/shared/lib/stripe";
+import { getUserSubscriptionPlan } from "@/shared/lib/subscription";
+import { absoluteUrl } from "@/shared/lib/utils";
 import { getServerSession } from "next-auth";
 import { redirect } from "next/navigation";
 

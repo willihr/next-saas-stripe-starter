@@ -8,7 +8,7 @@ import { Metadata } from "next"
 
 import { env } from "@/env.mjs"
 import { siteConfig } from "@/config/site"
-import { absoluteUrl } from "@/lib/utils"
+import { absoluteUrl } from "@/shared/lib/utils"
 
 interface PageProps {
   params: {

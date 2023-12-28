@@ -1,8 +1,8 @@
 // @ts-nocheck
 // TODO: Fix this when we turn strict mode on.
 import { pricingData } from "@/config/subscriptions";
-import { prisma } from "@/lib/db";
-import { stripe } from "@/lib/stripe";
+import { prisma } from "@/shared/lib/db";
+import { stripe } from "@/shared/lib/stripe";
 import { UserSubscriptionPlan } from "types";
 
 export async function getUserSubscriptionPlan(

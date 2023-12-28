@@ -1,7 +1,7 @@
 "use client";
 
 import useMediaQuery from "@/shared/lib/hooks/use-media-query";
-import { cn } from "@/lib/utils";
+import { cn } from "@/shared/lib/utils";
 import { Drawer } from "vaul";
 
 import {

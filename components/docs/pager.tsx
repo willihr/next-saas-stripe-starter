@@ -2,7 +2,7 @@ import Link from "next/link"
 import { Doc } from "contentlayer/generated"
 
 import { docsConfig } from "@/config/docs"
-import { cn } from "@/lib/utils"
+import { cn } from "@/shared/lib/utils"
 import { buttonVariants } from "@/shared/ui/button"
 import { Icons } from "@/components/shared/icons"
 

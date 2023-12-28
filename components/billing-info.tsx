@@ -11,7 +11,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/shared/ui/card"
-import { cn, formatDate } from "@/lib/utils"
+import { cn, formatDate } from "@/shared/lib/utils"
 import Link from "next/link"
 import { UserSubscriptionPlan } from "types"
 

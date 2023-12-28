@@ -7,7 +7,7 @@ import { SiteFooter } from "@/components/layout/site-footer"
 import { Icons } from "@/components/shared/icons"
 import { docsConfig } from "@/config/docs"
 import { siteConfig } from "@/config/site"
-import { getCurrentUser } from "@/lib/session"
+import { getCurrentUser } from "@/shared/lib/session"
 
 interface DocsLayoutProps {
   children: React.ReactNode

@@ -1,7 +1,7 @@
 import { redirect } from "next/navigation"
 
-import { authOptions } from "@/lib/auth"
-import { getCurrentUser } from "@/lib/session"
+import { authOptions } from "@/shared/lib/auth"
+import { getCurrentUser } from "@/shared/lib/session"
 import { EmptyPlaceholder } from "@/components/shared/empty-placeholder"
 import { DashboardHeader } from "@/components/dashboard/header"
 import { DashboardShell } from "@/components/dashboard/shell"

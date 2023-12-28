@@ -6,7 +6,7 @@ import GoogleProvider from "next-auth/providers/google"
 import { siteConfig } from "@/config/site"
 import MagicLinkEmail from "@/emails/magic-link-email"
 import { env } from "@/env.mjs"
-import { prisma } from "@/lib/db"
+import { prisma } from "@/shared/lib/db"
 import { resend } from "./email"
 
 export const authOptions: NextAuthOptions = {

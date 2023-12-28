@@ -2,7 +2,7 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { allGuides } from "contentlayer/generated"
 
-import { getTableOfContents } from "@/lib/toc"
+import { getTableOfContents } from "@/shared/lib/toc"
 import { Icons } from "@/components/shared/icons"
 import { Mdx } from "@/components/content/mdx-components"
 import { DocsPageHeader } from "@/components/docs/page-header"
@@ -12,7 +12,7 @@ import "@/styles/mdx.css"
 import { Metadata } from "next"
 
 import { env } from "@/env.mjs"
-import { absoluteUrl, cn } from "@/lib/utils"
+import { absoluteUrl, cn } from "@/shared/lib/utils"
 import { buttonVariants } from "@/shared/ui/button"
 
 interface GuidePageProps {

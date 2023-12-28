@@ -3,7 +3,7 @@ import { redirect } from "next/navigation"
 import { authOptions } from "@/shared/lib/auth"
 import { getCurrentUser } from "@/shared/lib/session"
 import { DashboardHeader } from "@/components/dashboard/header"
-import { DashboardShell } from "@/components/dashboard/shell"
+import { DashboardShell } from "@/widgets/dashboard-shell/ui/shell"
 import { UserNameForm } from "@/widgets/user-name-form/ui/user-name-form"
 
 export const metadata = {

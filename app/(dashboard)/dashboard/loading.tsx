@@ -1,6 +1,6 @@
 import { CardSkeleton } from "@/shared/ui/components/card-skeleton"
 import { DashboardHeader } from "@/components/dashboard/header"
-import { DashboardShell } from "@/components/dashboard/shell"
+import { DashboardShell } from "@/widgets/dashboard-shell/ui/shell"
 import { Button } from "@/shared/ui/button"
 
 export default function DashboardLoading() {

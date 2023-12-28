@@ -7,7 +7,7 @@ import { Alert, AlertDescription, AlertTitle } from "@/shared/ui/alert"
 import { BillingInfo } from "@/widgets/billing-info/ui/billing-info"
 import { DashboardHeader } from "@/components/dashboard/header"
 import { Icons } from "@/shared/ui/components/icons"
-import { DashboardShell } from "@/components/dashboard/shell"
+import { DashboardShell } from "@/widgets/dashboard-shell/ui/shell"
 
 export const metadata = {
   title: "Billing",

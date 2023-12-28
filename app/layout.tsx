@@ -4,7 +4,7 @@ import { fontHeading, fontSans, fontUrban } from "@/assets/fonts";
 import { Analytics } from "@/components/analytics";
 import { ModalProvider } from "@/components/modal-provider";
 import { ThemeProvider } from "@/components/providers";
-import { TailwindIndicator } from "@/components/tailwind-indicator";
+import { TailwindIndicator } from "@/widgets/tailwind-indicator/ui/tailwind-indicator";
 import { Toaster } from "@/shared/ui/toaster";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/shared/lib/utils";

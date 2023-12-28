@@ -1,6 +1,6 @@
 
 import { PricingCards } from '@/components/pricing-cards';
-import { PricingFaq } from '@/components/pricing-faq';
+import { PricingFaq } from '@/widgets/pricing-faq/ui/pricing-faq';
 import { Skeleton } from '@/shared/ui/skeleton';
 import { getCurrentUser } from '@/shared/lib/session';
 import { getUserSubscriptionPlan } from '@/shared/lib/subscription';

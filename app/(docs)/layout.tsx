@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 import { DocsSearch } from "@/components/docs/search"
-import { DocsSidebarNav } from "@/components/docs/sidebar-nav"
+import { DocsSidebarNav } from "@/widgets/docs-sidebar-nav/ui/sidebar-nav"
 import { NavBar } from "@/widgets/navbar/ui/navbar"
 import { SiteFooter } from "@/widgets/site-footer/ui/site-footer"
 import { Icons } from "@/shared/ui/components/icons"

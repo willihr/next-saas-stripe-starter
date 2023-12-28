@@ -1,7 +1,7 @@
 "use client";
 
 import { SignInModal } from "@/components/layout/sign-in-modal";
-import { useMounted } from "@/hooks/use-mounted";
+import { useMounted } from "@/shared/lib/hooks/use-mounted";
 
 export const ModalProvider = () => {
   const mounted = useMounted()

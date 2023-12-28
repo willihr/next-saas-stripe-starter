@@ -6,7 +6,7 @@ import { Icons } from "@/components/shared/icons";
 import { Modal } from "@/components/shared/modal";
 import { Button } from "@/shared/ui/button";
 import { siteConfig } from "@/config/site";
-import { useSigninModal } from "@/hooks/use-signin-modal";
+import { useSigninModal } from "@/shared/lib/hooks/use-signin-modal";
 import { signIn } from "next-auth/react";
 
 export const SignInModal = () => {

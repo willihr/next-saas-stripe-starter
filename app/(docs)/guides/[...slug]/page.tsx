@@ -13,7 +13,7 @@ import { Metadata } from "next"
 
 import { env } from "@/env.mjs"
 import { absoluteUrl, cn } from "@/lib/utils"
-import { buttonVariants } from "@/components/ui/button"
+import { buttonVariants } from "@/shared/ui/button"
 
 interface GuidePageProps {
   params: {

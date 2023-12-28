@@ -7,7 +7,7 @@ import { Drawer } from "vaul";
 import {
   Dialog,
   DialogContent,
-} from "@/components/ui/dialog";
+} from "@/shared/ui/dialog";
 
 interface ModalProps {
   children: React.ReactNode;

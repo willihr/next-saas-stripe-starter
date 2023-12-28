@@ -7,7 +7,7 @@ import { useForm } from "react-hook-form"
 
 import { cn } from "@/lib/utils"
 import { userNameSchema } from "@/lib/validations/user"
-import { buttonVariants } from "@/components/ui/button"
+import { buttonVariants } from "@/shared/ui/button"
 import {
   Card,
   CardContent,
@@ -15,10 +15,10 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { toast } from "@/components/ui/use-toast"
+} from "@/shared/ui/card"
+import { Input } from "@/shared/ui/input"
+import { Label } from "@/shared/ui/label"
+import { toast } from "@/shared/ui/use-toast"
 import { Icons } from "@/components/shared/icons"
 
 import { updateUserName, type FormData } from "@/actions/update-user-name"

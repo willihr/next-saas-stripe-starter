@@ -1,7 +1,7 @@
 import { CardSkeleton } from "@/components/shared/card-skeleton"
 import { DashboardHeader } from "@/components/dashboard/header"
 import { DashboardShell } from "@/components/dashboard/shell"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/shared/ui/button"
 
 export default function DashboardLoading() {
   return (

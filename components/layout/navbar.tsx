@@ -5,7 +5,7 @@ import { MainNavItem } from "@/types";
 import { User } from "next-auth";
 import { MainNav } from "./main-nav";
 import { UserAccountNav } from "./user-account-nav";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/shared/ui/button";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { useSigninModal } from "@/hooks/use-signin-modal";

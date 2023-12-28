@@ -2,7 +2,7 @@
 
 import * as React from "react"
 
-import { buttonVariants } from "@/components/ui/button"
+import { buttonVariants } from "@/shared/ui/button"
 import {
   Card,
   CardContent,
@@ -10,7 +10,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
+} from "@/shared/ui/card"
 import { cn, formatDate } from "@/lib/utils"
 import Link from "next/link"
 import { UserSubscriptionPlan } from "types"

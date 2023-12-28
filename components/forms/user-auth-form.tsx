@@ -9,10 +9,10 @@ import * as z from "zod"
 
 import { cn } from "@/lib/utils"
 import { userAuthSchema } from "@/lib/validations/auth"
-import { buttonVariants } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { toast } from "@/components/ui/use-toast"
+import { buttonVariants } from "@/shared/ui/button"
+import { Input } from "@/shared/ui/input"
+import { Label } from "@/shared/ui/label"
+import { toast } from "@/shared/ui/use-toast"
 import { Icons } from "@/components/shared/icons"
 
 interface UserAuthFormProps extends React.HTMLAttributes<HTMLDivElement> {

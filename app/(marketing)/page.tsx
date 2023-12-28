@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-import { buttonVariants } from "@/components/ui/button"
+import { buttonVariants } from "@/shared/ui/button"
 import { siteConfig } from "@/config/site"
 import { cn, nFormatter } from "@/lib/utils"
 import { Icons } from "@/components/shared/icons"

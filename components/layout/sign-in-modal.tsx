@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import { Icons } from "@/components/shared/icons";
 import { Modal } from "@/components/shared/modal";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/shared/ui/button";
 import { siteConfig } from "@/config/site";
 import { useSigninModal } from "@/hooks/use-signin-modal";
 import { signIn } from "next-auth/react";

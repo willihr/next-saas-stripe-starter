@@ -10,7 +10,7 @@ import {
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger
-} from "@/components/ui/dropdown-menu"
+} from "@/shared/ui/dropdown-menu"
 import { CreditCard, LayoutDashboard, LogOut, Settings } from "lucide-react"
 import type { User } from "next-auth"
 

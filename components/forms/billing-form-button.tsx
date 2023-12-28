@@ -2,7 +2,7 @@
 
 import { generateUserStripe } from '@/actions/generate-user-stripe'
 import { Icons } from "@/components/shared/icons"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/shared/ui/button"
 import { SubscriptionPlan, UserSubscriptionPlan } from "@/types"
 import { useTransition } from 'react'
 

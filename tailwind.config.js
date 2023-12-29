@@ -7,6 +7,12 @@ module.exports = {
     "./components/**/*.{ts,tsx}",
     "./ui/**/*.{ts,tsx}",
     "./content/**/*.{md,mdx}",
+    
+    "./pages/**/*.{ts,tsx}",
+    "./widgets/**/*.{ts,tsx}",
+    "./features/**/*.{ts,tsx}",
+    "./entities/**/*.{ts,tsx}",
+    "./shared/**/*.{ts,tsx}",
   ],
   darkMode: ["class"],
   future: {

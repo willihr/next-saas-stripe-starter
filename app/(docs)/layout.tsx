@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-import { DocsSearch } from "@/widgets/docs-search/ui/search"
+import { DocsSearch } from "@/features/search-docs/ui/search"
 import { DocsSidebarNav } from "@/widgets/docs-sidebar-nav/ui/sidebar-nav"
 import { NavBar } from "@/widgets/navbar/ui/navbar"
 import { SiteFooter } from "@/widgets/site-footer/ui/site-footer"

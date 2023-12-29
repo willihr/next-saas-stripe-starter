@@ -3,7 +3,7 @@ import * as React from "react"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/shared/lib/utils"
 import { Icons } from "@/shared/ui/components/icons"
-import { ModeToggle } from "./mode-toggle"
+import { ModeToggle } from "@/features/change-theme/ui/mode-toggle"
 
 export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
   return (

@@ -1,16 +1,16 @@
 import { cn } from "@/shared/lib/utils"
 
-interface DocsPageHeaderProps extends React.HTMLAttributes<HTMLDivElement> {
+interface DocPageHeaderProps extends React.HTMLAttributes<HTMLDivElement> {
   heading: string
   text?: string
 }
 
-export function DocsPageHeader({
+export function DocPageHeader({
   heading,
   text,
   className,
   ...props
-}: DocsPageHeaderProps) {
+}: DocPageHeaderProps) {
   return (
     <>
       <div className={cn("space-y-4", className)} {...props}>

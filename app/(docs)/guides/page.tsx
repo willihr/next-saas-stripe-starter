@@ -3,7 +3,7 @@ import { allGuides } from "contentlayer/generated"
 import { compareDesc } from "date-fns"
 
 import { formatDate } from "@/shared/lib/utils"
-import { DocsPageHeader } from "@/widgets/docs-page-header/ui/page-header"
+import { DocPageHeader } from "@/entities/doc/ui/doc-page-header"
 
 export const metadata = {
   title: "Guides",
@@ -20,7 +20,7 @@ export default function GuidesPage() {
 
   return (
     <div className="py-6 lg:py-10">
-      <DocsPageHeader
+      <DocPageHeader
         heading="Guides"
         text="This section includes end-to-end guides for developing Next.js 13 apps."
       />

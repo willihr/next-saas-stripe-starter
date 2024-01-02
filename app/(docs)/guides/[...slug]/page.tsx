@@ -4,8 +4,8 @@ import { allGuides } from "contentlayer/generated"
 
 import { getTableOfContents } from "@/shared/lib/toc"
 import { Icons } from "@/shared/ui/components/icons"
-import { Mdx } from "@/widgets/mdx-components/ui/mdx-components"
-import { DocsPageHeader } from "@/widgets/docs-page-header/ui/page-header"
+import { DocContent } from "@/entities/doc/ui/doc-content"
+import { DocPageHeader } from "@/entities/doc/ui/doc-page-header"
 import { DashboardTableOfContents } from "@/shared/ui/components/toc"
 
 import "@/styles/mdx.css"
@@ -94,8 +94,8 @@ export default async function GuidePage({ params }: GuidePageProps) {
   return (
     <main className="relative py-6 lg:grid lg:grid-cols-[1fr_300px] lg:gap-10 lg:py-10 xl:gap-20">
       <div>
-        <DocsPageHeader heading={guide.title} text={guide.description} />
-        <Mdx code={guide.body.code} />
+        <DocPageHeader heading={guide.title} text={guide.description} />
+        <DocContent doc={guide} />
         <hr className="my-4" />
         <div className="flex justify-center py-6 lg:py-10">
           <Link

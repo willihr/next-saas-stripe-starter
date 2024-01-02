@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation"
 import { allPages } from "contentlayer/generated"
 
-import { Mdx } from "@/widgets/mdx-components/ui/mdx-components"
+import { DocContent } from "@/entities/doc/ui/doc-content"
 
 import "@/styles/mdx.css"
 import { Metadata } from "next"
@@ -93,7 +93,7 @@ export default async function PagePage({ params }: PageProps) {
         )}
       </div>
       <hr className="my-4" />
-      <Mdx code={page.body.code} />
+      <DocContent doc={page} />
     </article>
   )
 }

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { formatDate } from '@/shared/lib/utils';
-import { Mdx } from "@/widgets/mdx-components/ui/mdx-components"
+import { Mdx } from "@/shared/ui/mdx-components"
 
 interface PostProps {
   post: Post

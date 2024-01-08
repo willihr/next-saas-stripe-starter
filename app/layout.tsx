@@ -13,6 +13,8 @@ interface RootLayoutProps {
   children: React.ReactNode
 }
 
+export const runtime = 'edge';
+
 export const metadata = {
   title: {
     default: siteConfig.name,

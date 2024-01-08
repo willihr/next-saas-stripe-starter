@@ -19,6 +19,9 @@
   "overrides": {
     "next-contentlayer": {
       "next": "$next"
+    },
+    "@next-auth/prisma-adapter": {
+      "next-auth": "$next-auth"
     }
   },
   "dependencies": {
